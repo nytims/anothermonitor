@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_pause" android:title="@string/menu_pause"
+		android:icon="@android:/drawable/ic_media_pause" />
+	<item android:id="@+id/menu_play" android:title="@string/menu_play"
+		android:icon="@android:/drawable/ic_media_play" android:visible="false"
+		android:enabled="false" />
+	<item android:id="@+id/menu_record" android:title="@string/menu_record"
+		android:icon="@android:/drawable/ic_menu_edit" />
+	<item android:id="@+id/menu_stop_record" android:title="@string/menu_stop_record"
+		android:icon="@android:/drawable/ic_menu_save" android:visible="false"
+		android:enabled="false" />
+	<item android:id="@+id/menu_pref" android:title="@string/menu_pref"
+		android:icon="@android:/drawable/ic_menu_preferences" />
+	<item android:id="@+id/menu_about" android:title="@string/menu_about"
+		android:icon="@android:/drawable/ic_menu_info_details" />
+	<item android:id="@+id/menu_exit" android:title="@string/menu_exit"
+		android:icon="@android:/drawable/ic_menu_close_clear_cancel" />
+</menu>

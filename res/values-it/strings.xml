@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AnotherMonitor</string>
+	<string name="notify_read">AnotherMonitor sta leggendo i valori</string>
+	<string name="notify_read2">Lettura valori</string>
+	<string name="notify_record">AnotherMonitor sta registrando i valori</string>
+	<string name="notify_record2">Resgistrazione valori</string>
+	<string name="notify_toast_saved">Il file CSV è stato salvato in data/data/com.anothermonitor/files</string>
+	<string name="notify_toast_error">Ha avuto qualche problema conservando il file CSV: </string>
+	<string name="main_reading">Lettura...</string>
+	<string name="main_not_reading">Non in lettura</string>
+	<string name="main_drawing"> Tra</string>
+	<string name="main_stopped"> Sto</string>
+	<string name="menu_pause">Pausa tracciamento</string>
+	<string name="menu_play">Ricomincia tracciamento</string>
+	<string name="menu_record">Registra</string>
+	<string name="menu_stop_record">Stop registrazione e salva</string>
+	<string name="menu_pref">Preferenze</string>
+	<string name="menu_about">About</string>
+	<string name="menu_exit">Esci</string>
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Annulla</string>
+	<string name="button_reset">Reset al default</string>
+	<string name="graphic_draw_interval">Interval tracciamento</string>
+	<string name="graphic_paused">Pausa tracciamento</string>
+	<string name="graphic_recording">Registrazione...</string>
+	<string name="tab_main">Principale</string>
+	<string name="tab_main_text">L'intervallo di tracciamento deve essere maggiore o uguale all'intervallo di lettura. Se l'intervallo di lettura viene modificato il grafico sarà cancellato. Più è alto il valore e più risorse verranno impiegate.</string>
+	<string name="tab_main_alert_text">L'intervallo di tracciamento deve essere maggiore o uguale all'intervallo di lettura.</string>
+	<string name="tab_main_alert_title">Ehi!</string>
+	<string name="tab_main_alert_ok">OK</string>
+	<string name="tab_appearance">Formato</string>
+	<string name="tab_appearance_icons_text">Happy menu iconi</string>
+	<string name="tab_appearance_icons_thanks_text">(Happy iconi grazie a: Opoloo GbR,
+		androidicons.com)</string>
+	<string name="tab_appearance_background_text">Colore sfondo grafico:</string>
+	<string name="tab_appearance_lines_text">Colore linee bordo grafico:</string>
+	<string name="tab_appearance_alert_background_text">La notazione RGB del colore non é corretta.
+	</string>
+	<string name="tab_appearance_alert_lines_text">La notazione RGB del colore non é corretta.
+	</string>
+	<string name="tab_read">Leggi/registra</string>
+	<string name="tab_read_text">Seleziona i valori che vuoi siano tracciati. Selezionando l'opzione, questi saranno anche i valori registrati.\nLe risorse utilizzate sono proporzionali al numero di valori tracciati.</string>
+	<string name="tab_draw">Disegna</string>
+	<string name="tab_draw_text">Seleziona i valori da tracciare. Se il corrispondente valore non è stato selezionato per il tracciamento, questo non verrà disegnato.\nLe risorse utilizzate sono proporzionali al numero di valori tracciati.</string>
+	<string name="tab_read_select_all">Seleziona tutto</string>
+	<string name="tab_read_unselect_all">Deseleziona tutto</string>
+	<string name="read_interval_text">Leggi i valori ogni:</string>
+	<string name="read_interval_prompt">Intervallo di lettura (s):</string>
+	<string-array name="read_interval_array">
+		<item>0,5 s</item>
+		<item>1 s</item>
+		<item>2 s</item>
+		<item>5 s</item>
+	</string-array>
+	<string name="draw_interval_text">Aggiorna il grafico ogni:</string>
+	<string name="draw_interval_prompt">Intervallo di tracciamento (s):</string>
+	<string-array name="draw_interval_array">
+		<item>1 s</item>
+		<item>2 s</item>
+		<item>4 s</item>
+		<item>8 s</item>
+	</string-array>
+	<string name="width_interval_text">Ampiezza dell'intervallo nel grafico:</string>
+	<string name="width_interval_prompt">Ampiezza dell'intervallo(px):</string>
+	<string-array name="width_interval_array">
+		<item>1 px</item>
+		<item>2 px</item>
+		<item>5 px</item>
+		<item>10 px</item>
+	</string-array>
+	<string name="about_title">About</string>
+	<string name="about_text">
+		<big><b>AnotherMonitor</b>v1.0.0</big>\n\n
+		© 2010 Antonio Redondo López\n
+		http://code.google.com/p/anothermonitor\n\n
+		Pubblicato sotto la\n
+		GNU General Public License v3.\n\n
+		AnotherMonitor è una applicazione per la piattaforma android che 
+		monitora e registra i valori d'uso di memoria e CPU per il mobile phone.\n\n
+		Chuck Norris approva questa applicazione.
+	</string>
+</resources>

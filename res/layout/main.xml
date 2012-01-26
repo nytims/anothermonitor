@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent" android:background="#181818"
+	android:layout_height="fill_parent">
+	<ScrollView android:orientation="vertical"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:paddingTop="12sp" android:paddingLeft="13sp"
+			android:paddingRight="14sp" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:text="MemTotal" android:layout_weight="1"
+					android:layout_height="wrap_content" android:layout_width="fill_parent"
+					android:textSize="13sp" />
+				<TextView android:text="- kB" android:id="@+id/textViewMemTotal"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:textSize="13sp" android:gravity="right" />
+				<TextView android:text="100.0%" android:textSize="13sp"
+					android:layout_height="wrap_content" android:layout_width="46sp"
+					android:gravity="right" />
+				<TextView android:layout_width="25sp" android:textSize="13sp"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="MemFree"
+					android:textColor="#ff00ff00" android:layout_weight="1"
+					android:layout_width="fill_parent" android:textSize="13sp"
+					android:layout_height="wrap_content" />
+				<TextView android:text="- kB" android:id="@+id/textViewMemFree"
+					android:textColor="#ff00ff00" android:textSize="13sp"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewMemFreeP"
+					android:textColor="#ff00ff00" android:gravity="right"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:textSize="13sp" android:minWidth="46sp" />
+				<TextView android:id="@+id/textViewMemFreeS"
+					android:textSize="13sp" android:textColor="#ff00ff00"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="25sp" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="Buffers"
+					android:textColor="#ff0000ff" android:layout_weight="1"
+					android:layout_width="fill_parent" android:textSize="13sp"
+					android:layout_height="wrap_content" />
+				<TextView android:text="- kB" android:id="@+id/textViewBuffers"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:textColor="#ff0000ff" android:textSize="13sp"
+					android:gravity="right" />
+				<TextView android:text="-%" android:id="@+id/textViewBuffersP"
+					android:gravity="right" android:textColor="#ff0000ff"
+					android:textSize="13sp" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:minWidth="46sp" />
+				<TextView android:id="@+id/textViewBuffersS"
+					android:layout_height="wrap_content" android:textSize="13sp"
+					android:textColor="#ff0000ff" android:gravity="right"
+					android:layout_width="25sp" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="Cached"
+					android:textSize="13sp" android:textColor="#ff00ffff"
+					android:layout_height="wrap_content" android:layout_weight="1"
+					android:layout_width="fill_parent" />
+				<TextView android:text="- kB" android:id="@+id/textViewCached"
+					android:textSize="13sp" android:textColor="#ff00ffff"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewCachedP"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:textSize="13sp" android:gravity="right" android:textColor="#ff00ffff"
+					android:minWidth="46sp" />
+				<TextView android:id="@+id/textViewCachedS"
+					android:layout_height="wrap_content" android:layout_width="25sp"
+					android:textSize="13sp" android:textColor="#ff00ffff"
+					android:gravity="right" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="Active"
+					android:textSize="13sp" android:textColor="#ffffff00"
+					android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<TextView android:text="- kB" android:id="@+id/textViewActive"
+					android:textSize="13sp" android:textColor="#ffffff00"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewActiveP"
+					android:textSize="13sp" android:gravity="right" android:textColor="#ffffff00"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:minWidth="46sp" />
+				<TextView android:id="@+id/textViewActiveS"
+					android:textSize="13sp" android:textColor="#ffffff00"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="25sp" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="Inactive"
+					android:textSize="13sp" android:textColor="#ffff00ff"
+					android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<TextView android:text="- kB" android:id="@+id/textViewInactive"
+					android:textSize="13sp" android:textColor="#ffff00ff"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewInactiveP"
+					android:gravity="right" android:textColor="#ffff00ff"
+					android:textSize="13sp" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:minWidth="46sp" />
+				<TextView android:id="@+id/textViewInactiveS"
+					android:textSize="13sp" android:textColor="#ffff00ff"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="25sp" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="SwapTotal"
+					android:textSize="13sp" android:textColor="#ff006000"
+					android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<TextView android:text="- kB" android:id="@+id/textViewSwapTotal"
+					android:textSize="13sp" android:textColor="#ff006000"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewSwapTotalP"
+					android:textColor="#ff006000" android:textSize="13sp"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:minWidth="46sp" />
+				<TextView android:id="@+id/textViewSwapTotalS"
+					android:textSize="13sp" android:textColor="#ff006000"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="25sp" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="Dirty"
+					android:textColor="#ff800080" android:textSize="13sp"
+					android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<TextView android:text="- kB" android:id="@+id/textViewDirty"
+					android:textColor="#ff800080" android:textSize="13sp"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewDirtyP"
+					android:textColor="#ff800080" android:textSize="13sp"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" android:minWidth="46sp" />
+				<TextView android:id="@+id/textViewDirtyS"
+					android:textSize="13sp" android:textColor="#ff800080"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="25sp" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:text="CPU total usage" android:textSize="13sp"
+					android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewCPUTotalP"
+					android:textSize="13sp" android:gravity="right"
+					android:layout_height="wrap_content" android:layout_width="wrap_content" />
+				<TextView android:id="@+id/textViewCPUTotalPS"
+					android:textSize="13sp" android:textColor="#ffFF8000"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="25sp" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="CPU AnotherMonitor"
+					android:textColor="#ffFF8000" android:textSize="13sp"
+					android:layout_weight="1" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewCPUAMP"
+					android:textColor="#ffFF8000" android:textSize="13sp"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="wrap_content" />
+				<TextView android:id="@+id/textViewCPUAMPS"
+					android:textSize="13sp" android:textColor="#ffFF8000"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="25sp" />
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:layout_marginLeft="15sp" android:text="CPU Rest"
+					android:textSize="13sp" android:layout_weight="1"
+					android:layout_width="fill_parent" android:textColor="#ffFF0000"
+					android:layout_height="wrap_content" />
+				<TextView android:text="-%" android:id="@+id/textViewCPURestP"
+					android:textSize="13sp" android:gravity="right" android:textColor="#ffFF0000"
+					android:layout_height="wrap_content" android:layout_width="wrap_content" />
+				<TextView android:id="@+id/textViewCPURestPS"
+					android:textSize="13sp" android:textColor="#ffFF0000"
+					android:gravity="right" android:layout_height="wrap_content"
+					android:layout_width="25sp" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+	<com.anothermonitor.AnGraphic android:id="@+id/myAnGraphic"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1" />
+</LinearLayout>
