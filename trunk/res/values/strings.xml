@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AnotherMonitor</string>
+	<string name="notify_read">AnotherMonitor is reading values</string>
+	<string name="notify_read2">Reading values</string>
+	<string name="notify_record">AnotherMonitor is recording values</string>
+	<string name="notify_record2">Recording values</string>
+	<string name="notify_toast_saved">CSV file saved on "data/data/com.anothermonitor/files" folder</string>
+	<string name="notify_toast_error">It has happened some problem saving the CSV file: </string>
+	<string name="main_reading">Reading...</string>
+	<string name="main_not_reading">Not reading</string>
+	<string name="main_drawing"> Dra</string>
+	<string name="main_stopped"> Sto</string>
+	<string name="menu_pause">Pause drawing</string>
+	<string name="menu_play">Resume drawing</string>
+	<string name="menu_record">Record</string>
+	<string name="menu_stop_record">Stop record and save</string>
+	<string name="menu_pref">Preferences</string>
+	<string name="menu_about">About</string>
+	<string name="menu_exit">Exit</string>
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_reset">Reset to defaults</string>
+	<string name="graphic_update_interval">Update interval</string>
+	<string name="graphic_paused">Graphic paused</string>
+	<string name="graphic_recording">Recording...</string>
+	<string name="tab_main">Main</string>
+	<string name="tab_main_text">The update interval must be equal or higher than the
+		read interval. If the read interval is modified the graphic will be
+		reset. The higher values, the less resources consume.</string>
+	<string name="tab_main_alert_text">The update interval must be equal or higher than the	read interval.</string>
+	<string name="tab_main_alert_title">Eih!</string>
+	<string name="tab_main_alert_ok">OK</string>
+	<string name="tab_appearance">Appearance</string>
+	<string name="tab_appearance_icons_text">Happy menu icons</string>
+	<string name="tab_appearance_icons_thanks_text">(Happy icons thanks to: Opoloo GbR,	androidicons.com)</string>
+	<string name="tab_appearance_background_text">Graphic background color:</string>
+	<string name="tab_appearance_lines_text">Graphic edge lines color:</string>
+	<string name="tab_appearance_alert_background_text">The background color RGB notation is not correct.</string>
+	<string name="tab_appearance_alert_lines_text">The lines color RGB notation is not correct.</string>
+	<string name="tab_read">Read/record</string>
+	<string name="tab_read_text">Select the values what you want to be read. These
+		values will also be the recorded values when this option
+		selected.\nThe less read values, AnotherMonitor will consume less resources.</string>
+	<string name="tab_read_select_all">Select all</string>
+	<string name="tab_read_unselect_all">Unselect all</string>
+	<string name="tab_draw">Draw</string>
+	<string name="tab_draw_text">Select the values what you want to be drawn. If
+		some draw value if selected but its read value not, it will not be
+		drawn.\nThe
+		less draw values, the application will consume less
+		resources.</string>
+	<string name="read_interval_text">Read values every:</string>
+	<string name="read_interval_prompt">Read interval (s):</string>
+	<string-array name="read_interval_array">
+		<item>0,5 s</item>
+		<item>1 s</item>
+		<item>2 s</item>
+		<item>4 s</item>
+	</string-array>
+	<string name="update_interval_text">Update graphic and labels every:</string>
+	<string name="update_interval_prompt">Update interval (s):</string>
+	<string-array name="update_interval_array">
+		<item>1 s</item>
+		<item>2 s</item>
+		<item>4 s</item>
+		<item>8 s</item>
+	</string-array>
+	<string name="width_interval_text">Graphic width interval:</string>
+	<string name="width_interval_prompt">Width interval (px):</string>
+	<string-array name="width_interval_array">
+		<item>1 px</item>
+		<item>2 px</item>
+		<item>5 px</item>
+		<item>10 px</item>
+	</string-array>
+	<string name="about_title">About</string>
+	<string name="about_text">
+		<big><b>AnotherMonitor</b> v1.0.0</big>\n\n
+		© 2010 Antonio Redondo López\n
+		http://code.google.com/p/anothermonitor\n\n
+		Published under the\n
+		GNU General Public License v3.\n\n
+		AnotherMonitor is an application for the Android platform which
+		monitors and records the memory and CPU usage values of the mobile
+		phone.\n\n
+		Chuck Norris approves this application.
+	</string>
+</resources>

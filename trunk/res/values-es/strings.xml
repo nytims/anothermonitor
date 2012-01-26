@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">AnotherMonitor</string>
+	<string name="notify_read">AnotherMonitor está leyendo valores</string>
+	<string name="notify_read2">Leyendo valores</string>
+	<string name="notify_record">AnotherMonitor está grabando valores</string>
+	<string name="notify_record2">Grabando valores</string>
+	<string name="notify_toast_saved">Archivo CSV guardado en la carpeta "data/data/com.anothermonitor/files"</string>
+	<string name="notify_toast_error">Ha ocurrido algún problema al guardar el archivo CSV: </string>
+	<string name="main_reading">Leyendo...</string>
+	<string name="main_not_reading">No leyendo</string>
+	<string name="main_drawing"> Mos</string>
+	<string name="main_stopped"> Par</string>
+	<string name="menu_pause">Pausar gráfico</string>
+	<string name="menu_play">Reactivar gráfico</string>
+	<string name="menu_record">Grabar</string>
+	<string name="menu_stop_record">Parar de grabar y guardar</string>
+	<string name="menu_pref">Preferencias</string>
+	<string name="menu_about">Acerca de</string>
+	<string name="menu_exit">Salir</string>
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Cancelar</string>
+	<string name="button_reset">Resetear a valores predeterminados</string>
+	<string name="graphic_update_interval">Intervalo de actualización</string>
+	<string name="graphic_paused">Gráfico pausado</string>
+	<string name="graphic_recording">Grabando...</string>
+	<string name="tab_main">Principal</string>
+	<string name="tab_main_text">El intervalo de actualización debe ser igual o superior que el intervalo de lectura. Si el intervalo de lectura es modificado el gráfico será reseteado. Cuanto valores más altos, menos recursos consumidos.</string>
+	<string name="tab_main_alert_text">El intervalo de actualización debe ser igual o superior que el intervalo de lectura.</string>
+	<string name="tab_main_alert_title">Eih!</string>
+	<string name="tab_main_alert_ok">OK</string>
+	<string name="tab_appearance">Apariencia</string>
+	<string name="tab_appearance_icons_text">Iconos de menú Happy</string>
+	<string name="tab_appearance_icons_thanks_text">(Iconos Happy gracias a: Opoloo GbR, androidicons.com)</string>
+	<string name="tab_appearance_background_text">Color de fondo del gráfico:</string>
+	<string name="tab_appearance_lines_text">Color de las líneas del borde del gráfico:</string>
+	<string name="tab_appearance_alert_background_text">La notación RGB del color de fondo no es correcta.</string>
+	<string name="tab_appearance_alert_lines_text">La notación RGB de las líneas del borde no es correcta.</string>
+	<string name="tab_read">Lectura/grabación</string>
+	<string name="tab_read_text">Selecciona los valores que quieras leer. Estos
+		valores serán también los grabados cuando selecciones esta opción.\nCuanto menos valores leidos, AnotherMonitor consumirá menos recursos.</string>
+	<string name="tab_read_select_all">Seleccionar todo</string>
+	<string name="tab_read_unselect_all">Deseleccionar todo</string>	
+	<string name="tab_draw">Gráfico</string>
+	<string name="tab_draw_text">Selecciona los valores que quieras mostrar en el
+		gráfico. Si algún valor para mostrar es seleccionado pero su valor de
+		lectura no está seleccionado,
+		éste no será mostrado.\nCuanto menos valores para mostrar, AnotherMonitor
+		consumirá menos recursos.</string>
+	<string name="read_interval_text">Leer valores cada:</string>
+	<string name="read_interval_prompt">Intervalo de lectura (s):</string>
+	<string-array name="read_interval_array">
+		<item>0,5 s</item>
+		<item>1 s</item>
+		<item>2 s</item>
+		<item>4 s</item>
+	</string-array>
+	<string name="update_interval_text">Actualizar gráfico y etiquetas cada:</string>
+	<string name="update_interval_prompt">Intervalo de actualización (s):</string>
+	<string-array name="update_interval_array">
+		<item>1 s</item>
+		<item>2 s</item>
+		<item>4 s</item>
+		<item>8 s</item>
+	</string-array>
+	<string name="width_interval_text">Ancho del invervalo del gráfico:</string>
+	<string name="width_interval_prompt">Ancho del intervalo (px):</string>
+	<string-array name="width_interval_array">
+		<item>1 px</item>
+		<item>2 px</item>
+		<item>5 px</item>
+		<item>10 px</item>
+	</string-array>
+	<string name="about_title">Acerca de</string>
+	<string name="about_text">
+		<big><b>AnotherMonitor</b>v1.0.0</big>\n\n
+		© 2010 Antonio Redondo López\n
+		http://code.google.com/p/anothermonitor\n\n
+		Publicado bajo la\n
+		GNU General Public License v3.\n\n
+		AnotherMonitor es una aplicación para la
+		plataforma Android que monitoriza y graba los valores
+		de la memoria y	el uso de la CPU del teléfono móvil.\n\n
+		Chuck Norris aprueba esta aplicación.
+	</string>
+</resources>
